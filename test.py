@@ -26,5 +26,5 @@ def main():
         m,set = mean()
         s = std(m,set)
         print("Mean:",m,"  STD:",s)
-    return 0
+    #return 0
 main()
