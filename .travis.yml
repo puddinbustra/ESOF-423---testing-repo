@@ -6,7 +6,7 @@ python:
 script: pytest
 
 
-#when we have dependencies, uncomment the below, make requirements.txt with the dependencies in it
+# when we have dependencies, uncomment the below, make requirements.txt with the dependencies in it
 # install:
-  #- .travis.yml
-  #- pip install -r requirements.txt
+  # - .travis.yml
+  # - pip install -r requirements.txt
