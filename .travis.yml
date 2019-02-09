@@ -4,6 +4,8 @@ python:
   - "3.6"
 script: pytest
 
+before_install:
+  - sudo apt-get update
 
 # when we have dependencies, uncomment the below, make requirements.txt with the dependencies in it
 install:
