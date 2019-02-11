@@ -9,6 +9,5 @@ before_install:
 
 # when we have dependencies, uncomment the below, make requirements.txt with the dependencies in it
 install:
-  - pip install .
   #- .travis.yml
-  #- pip install -r requirements.txt
+  - pip install -r requirements.txt
