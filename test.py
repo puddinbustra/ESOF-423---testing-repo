@@ -1,4 +1,5 @@
 import math
+import sys 
 
 def mean():
     n = int(input("Number of data entries? "))
@@ -28,3 +29,4 @@ def main():
         print("Mean:",m,"  STD:",s)
     #return 0
 main()
+print("Just not dealing with cmd args:", str(sys.argv))
