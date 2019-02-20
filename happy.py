@@ -22,11 +22,15 @@ def std(mean, set):
 
 
 def main():
-    dataCount = int(input("Enter number of means? "))
-    for count in range(dataCount):
-        m,set = mean()
-        s = std(m,set)
-        print("Mean:",m,"  STD:",s)
+    print("Just not dealing with cmd args:", str(sys.argv))
+    if int(sys.argv) == 10:
+        return 55
+    
+
+    # dataCount = 0
+    # for count in range(dataCount):
+    #     m,set = mean()
+    #     s = std(m,set)
+    #     print("Mean:",m,"  STD:",s)
     #return 0
 main()
-print("Just not dealing with cmd args:", str(sys.argv))
