@@ -2,10 +2,11 @@ language: python
 
 python: 
   - "3.6"
+  
 script: pytest
 
 #before_install:
 #  - sudo apt-get update
 
 install:
-  - pip install -r requirements.txt
+  - pip install -e
