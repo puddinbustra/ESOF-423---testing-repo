@@ -9,4 +9,4 @@ script: pytest
 #  - sudo apt-get update
 
 install:
-  - pip install -e
+  - pip install -e .
