@@ -1,12 +1,8 @@
-language: python 
+language: python
 
 python: 
   - "3.6"
   
+install: pip install -e .
+
 script: pytest
-
-#before_install:
-#  - sudo apt-get update
-
-install:
-  - pip install -e .
