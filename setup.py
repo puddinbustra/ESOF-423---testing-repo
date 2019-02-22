@@ -9,5 +9,5 @@ setup(name='loftytests',
       author='lofty',
       packages=find_packages('tests'),
       package_dir={'': 'tests'},
-      #py_modules=[splitext(basename(path))[0] for path in glob('tests/*.py')],
+      py_modules=[splitext(basename(path))[0] for path in glob('tests/*.py')],
      )
