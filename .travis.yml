@@ -5,6 +5,6 @@ python:
   
 install: pip install -e .
 
-script: echo "This is hard"
-#script: pytest
+#script: echo "This is hard"
+script: pytest
 #scipt: "python manage.py test"
