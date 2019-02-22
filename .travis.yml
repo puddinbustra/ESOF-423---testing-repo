@@ -5,4 +5,5 @@ python:
   
 install: pip install -e .
 
-script: pytest
+#script: pytest
+scipt: "python manage.py test"
