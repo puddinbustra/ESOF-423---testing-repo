@@ -1,2 +1,1 @@
-<<<<<<< HEAD
-This is just a thing I'm adding for practice.  I like pie.  
+print("Hi I like pie")
