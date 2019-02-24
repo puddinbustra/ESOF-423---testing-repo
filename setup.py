@@ -5,5 +5,5 @@ from glob import glob
 setup(
   name = "Happy"
   packages=find_packages('src'),
-  package_dir={'': 'src'},
+  package_dir={'': 'src'}
 )
