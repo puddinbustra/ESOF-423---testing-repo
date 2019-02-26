@@ -1,7 +1,7 @@
 import pytest
-from src.test import test
+from src.happy import happy
 
 
 def testHappy():
-  assert(pie(30 == 30))
+  assert(cake(10 == 10))
     
