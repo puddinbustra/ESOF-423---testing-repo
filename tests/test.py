@@ -1,5 +1,5 @@
 import pytest
-from src.happy import happy
+from pie.happy import happy
 
 
 def testHappy():
