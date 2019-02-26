@@ -1,5 +1,5 @@
 import pytest
-from mypkg.happy import happy
+from mypkg.happy import cake
 
 
 def test_fib_10():
