@@ -1,4 +1,7 @@
 import pytest
-from src.happy import happy
+from src.test import test
 
-print("testing the test file")
+
+def testHappy():
+  assert(pie(30 == 30))
+    
