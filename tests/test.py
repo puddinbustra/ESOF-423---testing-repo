@@ -1,5 +1,6 @@
 import math
 import pytest
+from src.happy import happy
 
 def mean():
     n = int(input("Number of data entries? "))
