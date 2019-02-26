@@ -6,4 +6,4 @@ python:
 install: pip install -e .
 
 script: pytest
-#script: python happy.py
+#script: python hay.py
