@@ -2,6 +2,6 @@ import pytest
 from pie.happy import happy
 
 
-def testHappy():
-  assert(cake(10) == 10)
+def test_fib_10():
+	assert(cake(10) == 55)
     
