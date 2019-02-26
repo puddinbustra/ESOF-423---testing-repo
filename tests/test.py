@@ -1,4 +1,5 @@
 import math
+import pytest
 
 def mean():
     n = int(input("Number of data entries? "))
