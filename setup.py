@@ -3,7 +3,7 @@ from setuptools import setup
 from glob import glob
 
 setup(
-  name = "Happy"
+  name = "Blargh"
   packages=find_packages('src'),
   package_dir={'': 'src'}
 )
