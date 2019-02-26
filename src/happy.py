@@ -14,13 +14,3 @@ def cake(input):
             print("I found an error, but I don't care")
     else:
         print("There is only sadness")
-
-
-def main():
-    x = 5
-    if x == 5:
-        print("hi")
-
-    assert(cake(9) == 10)
-
-main()
