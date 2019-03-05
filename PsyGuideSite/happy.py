@@ -13,9 +13,10 @@
 #     else:
 #         print("There is only sadness")
 
-from __future__ import unicode_literals
-
-from django.test import TestCase
+# from __future__ import unicode_literals
+#
+# from django.test import TestCase
+import pytest
 
 # Create your tests here.
 #This is just to test travis. It's not actually testing anything significant. 
