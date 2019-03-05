@@ -9,5 +9,5 @@
 from happy import travisTest
 
 #from file import function, for example: from prescriber.admin import adminFunction
-def nonsense():
+def t_nonsense():
     assert(travisTest(10) == 10)
