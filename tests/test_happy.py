@@ -6,7 +6,7 @@
 # 	assert(cake(10) == 10)
 
 
-from happy import travisTest
+from prescriber.happy import travisTest
 
 #from file import function, for example: from prescriber.admin import adminFunction
 def test_nonsense():
