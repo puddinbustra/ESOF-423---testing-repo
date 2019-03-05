@@ -1,4 +1,4 @@
 from blah import crayon
 
-def test_blah():
+def testing_blah():
   assert(crayon(10) == 10)
