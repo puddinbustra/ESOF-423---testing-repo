@@ -9,5 +9,5 @@ setup(
       # package_dir={'': 'PsyGuideSite'},
       packages=find_packages('PsyGuideSite'),
       package_dir={'': 'PsyGuideSite'},
-      os.environ.setdefault("DJANGO_SETTINGS_MODULE", "nirla.settings")
+
      )
