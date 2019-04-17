@@ -1,6 +1,6 @@
 # import pytest
 # from mypkg.happy import cake
-#from django.test import TestCase
+from django.test import TestCase
 
 # def test_fib_10():
 # 	assert(cake(10) == 10)
