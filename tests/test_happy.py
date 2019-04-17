@@ -1,4 +1,4 @@
-# import pytest
+import pytest
 # from mypkg.happy import cake
 from django.test import TestCase
 
